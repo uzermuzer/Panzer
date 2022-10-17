@@ -5,7 +5,7 @@ class Tank:
     health = 2500
 
 
-    def init(self, model = str, armor = int, damage = randint(), health = int):
+    def init(self, model = str, armor = int, damage = int, health = int):
         self.model = model
         self.armor = armor
         self.damage = damage
